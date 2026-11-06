@@ -8,8 +8,5 @@ form.addEventListener("submit", (event) => {
 
   const pronouns = document.getElementById("pronouns");
 
-  // Remove unnecessary spaces from pronouns.
-  pronouns.value = pronouns.value.trim();
-
   statusEl.textContent = "Profile saved.";
 });
